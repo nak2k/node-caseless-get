@@ -1,0 +1,24 @@
+{
+  "name": "caseless-get",
+  "version": "0.0.1",
+  "description": "caseless-get",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-caseless-get/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/nak2k/node-caseless-get",
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-caseless-get.git"
+  },
+  "scripts": {},
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}

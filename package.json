@@ -7,7 +7,9 @@
     "url": "https://github.com/nak2k/node-caseless-get/issues"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
   "homepage": "https://github.com/nak2k/node-caseless-get",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/nak2k/node-caseless-get.git"
   },
-  "scripts": {},
+  "scripts": {
+    "prepare": "npm test",
+    "test": "tape test/test*.js"
+  },
   "files": [
     "README.md",
     "lib/"

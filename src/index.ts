@@ -1,12 +1,12 @@
-const get = (obj, prop) => {
+export function get(obj: any, prop: string) {
   prop = prop.toLowerCase();
 
   const key = Object.keys(obj).find(name => prop === name.toLowerCase());
 
-  return obj[key];
-};
+  return key && obj[key];
+}
 
-const multiGet = (obj, props) => {
+export function multiGet(obj: any, props: string[]) {
   props = props.map(p => p.toLowerCase());
 
   const keys = Object.keys(obj);
@@ -25,10 +25,4 @@ const multiGet = (obj, props) => {
   }
 
   return result;
-};
-
-/*
- * Exports.
- */
-exports.get = get;
-exports.multiGet = multiGet;
+}
